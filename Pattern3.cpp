@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int rows;
+    int colms;
+    cout<<"Enter number of rows :";
+    cin>>rows;
+    cout<<"Enter number of coloumns :";
+    cin>>colms;
+    int i=1;
+    
+    while(i<=rows){
+        int j=1;
+        //int count=rows;
+        while(j<=colms){
+           // cout<<count;
+           // count--;
+            cout<<(rows-j+1);
+            j=j+1;
+        }
+        cout<<endl;
+        i=i+1;
+    }
+
+    return 0;
+}
