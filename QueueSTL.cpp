@@ -20,12 +20,14 @@ int main(){
     q.pop();
     cout<<"Front element:"<<q.front()<<endl;
     cout<<"Rear element : "<<q.back()<<endl;
+
+    cout<<"size of queue : "<<q.size()<<endl;
     
     if(q.empty()){
         cout<<endl<<"Empty Queue "<<endl;
     }
     else{
-        cout<<endl<<"Non-Empty Queue"<<endl;
+        cout<<endl<<"Non-Empty Queue "<<endl;
     }
 
     return 0;
