@@ -47,7 +47,7 @@ public:
     // dequeue (remove from front)
     int dequeue() {
         if(qfront == NULL) {
-            return -1;   // no printing
+            return -1;   // no elemnt present in the queue
         }
 
         Node* temp = qfront;

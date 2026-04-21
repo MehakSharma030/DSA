@@ -14,7 +14,7 @@ public:
         this->left = NULL;
         this->right = NULL;
     }
-};
+}; 
 
 node* buildTree(node * root) {
 
